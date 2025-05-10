@@ -1,1 +1,72 @@
-<h1>Addy M.</h1><p>Addy is always smiling and loves playing games with toddlers. She has two younger siblings.</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Addy M. | EP Sitters</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    nav ul.menu li {
+      position: relative;
+    }
+    nav ul.menu li ul.dropdown {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background: #fff;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    nav ul.menu li:hover ul.dropdown {
+      display: block;
+    }
+    nav ul.menu li ul.dropdown li a {
+      display: block;
+      padding: 10px;
+      color: #333;
+      text-decoration: none;
+    }
+    nav ul.menu li ul.dropdown li a:hover {
+      background: #eee;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>EP Sitters</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="schedule.html">Schedule a Sitting</a></li>
+          <li>
+            <a href="members.html">Meet the Members</a>
+            <ul class="dropdown">
+              <li><a href="ruby.html">Ruby D.</a></li>
+              <li><a href="addy.html">Addy M.</a></li>
+              <li><a href="eloise.html">Eloise S.</a></li>
+              <li><a href="andersen.html">Andersen B.</a></li>
+            </ul>
+          </li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Meet Addy M.</h2>
+    <p>Addy is a kind and patient sitter who loves drawing and helping with homework. She has a little sister and enjoys making up fun games to play together. Addy is always calm and caring with kids of all ages.</p>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 EP Sitters. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
