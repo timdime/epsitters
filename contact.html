@@ -1,32 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Contact Us</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | EP Sitters</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>Contact Us</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="schedule.html">Schedule a Sitting</a></li>
-        <li><a href="members.html">Meet the Members</a></li>
-        <li><a href="contact.html">Contact Us</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <h1>EP Sitters</h1>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="schedule.html">Schedule a Sitting</a></li>
+          <li><a href="members.html">Meet the Members</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
-  <main>
-    <form action="mailto:example@example.com" method="post" enctype="text/plain">
-      <label for="email">Your Email:</label>
-      <input type="email" id="email" name="email" required />
+
+  <main class="container">
+    <h2>Contact Us</h2>
+    <p>We’d love to hear from you! Please fill out the form below or call/text us.</p>
+    <form action="#" method="post">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" required>
+
       <label for="message">Message:</label>
-      <textarea id="message" name="message"></textarea>
-      <button type="submit">Send</button>
+      <textarea id="message" name="message" rows="5"></textarea>
+
+      <button type="submit">Send Message</button>
     </form>
-    <p>Or call us at: <strong>(773) 555-1234</strong></p>
+    <p class="contact-phone">Phone: (773) 555-0199</p>
   </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 EP Sitters. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
