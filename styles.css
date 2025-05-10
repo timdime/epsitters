@@ -37,6 +37,11 @@ nav ul li a {
     display: block;
 }
 
+.responsive-img {
+    max-width: 200px;
+    height: auto;
+}
+
 main {
     padding: 20px;
 }
